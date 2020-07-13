@@ -17,17 +17,83 @@
     color: rgb(228, 228, 228);
 }
 .header-contact div{
+    font-size: 15px;
+}
+
+.header-contact div{
     margin: 7.5px;
     justify-content: center;
 }
 .header-social-link{
     margin: 1px;
+    justify-content: center;
+}
+.header-social-link a{
+    margin: 10px;
+    font-size: large;
 }
 .fa{
     font-size: large;
     color:rgb(228, 228, 228);
-  }
-.nav-row{
-    right: 10%;
 }
+.navbar-main{
+    height: 115px;
+}
+.navbar-main .nav >li >a {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.navbar-main .navbar-toggle {
+padding: 10px;
+margin: 25px 15px 25px 0;
+}
+.navbar-primary {
+box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+text-transform: uppercase;
+color: #6d6d6d!important;
+}
+.navbar-primary a {
+    color: #414040;
+}
+.navbar-primary a:hover{
+    color: #ffffff;
+}
+.navbar-collapse > ul{
+    margin-top: 8px;
+    padding-top: 8px;
+}
+.navbar-brand>img {
+    display: block;
+    margin-top: 3px;
+}
+.nav > li{
+   width: auto;
+   height: 30px; 
+}
+.nav > li > a:hover{
+    background-color:rgba(0, 91, 168, 0.886);
+}
+.navbar-main .nav >li >a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    justify-content: center;
+    margin-bottom: 16%;
+}
+
+
+
+
+
+
+
+
 
