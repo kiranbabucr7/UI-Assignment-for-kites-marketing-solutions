@@ -1,6 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
 .line{
     text-align: center;
     width: 10%;
@@ -41,3 +42,19 @@
         display: block;
     }
 }
+.services{
+    background-image: url("http://presto.ae/prestows2016/wp-content/uploads/home-serv1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+  }
+
+  .red-round{
+    display: inline-block;
+    min-width: 70px;
+    min-height: 70px;
+    margin: 6px;
+    background-color: rgb(243, 10, 10);
+    border-radius: 50%;
+  }
