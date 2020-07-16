@@ -1,5 +1,5 @@
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .line{
@@ -50,11 +50,41 @@
     width:100%;
   }
 
-  .red-round{
-    display: inline-block;
-    min-width: 70px;
-    min-height: 70px;
-    margin: 6px;
-    background-color: rgb(243, 10, 10);
-    border-radius: 50%;
-  }
+
+.logo{
+width:150px;
+}
+.logo1{
+width:65px;
+}
+
+.navbar {
+   
+}
+.navbar-nav li:hover{
+    background-color: rgba(0, 91, 168, 0.886);
+}
+.navbar-nav > li{
+    padding-left:11px;
+    padding-right:11px;
+}
+.nav-link:hover{
+    color: white;
+}
+.navbar-nav li a{
+    color:rgb(51, 51, 51);
+}
+
+.businessman{
+    display: inline-flex;
+}
+.pre-footer h3{
+    color: rgb(0, 91, 168);
+}
+.prefooter-r-c1{
+    max-height: 500px;
+
+}
+.location{
+    max-height: 400px;
+}

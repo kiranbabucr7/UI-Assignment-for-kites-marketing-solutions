@@ -1,0 +1,56 @@
+.text-w{
+    color: rgb(255, 255, 255);
+    font-size : 15px;
+} 
+.text-w{
+    color: rgb(255, 255, 255);
+    font-size : 15px;
+} 
+.opa-5{
+    opacity: 0.5;
+}
+.bdr-r-r{
+    border-right: 1px dotted red;
+}
+.bdr-r-r{
+    border-bottom: 1px solid red;
+}
+.one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px rgb(102, 100, 100);
+       -moz-box-shadow: 0 8px 6px -6px rgb(102, 100, 100);
+            box-shadow: 0 8px 6px -6px rgb(102, 100, 100);
+}
+
+.bdr-r{
+    border-right: 1px dotted red;
+}
+.cirle-1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    display: inline-block;
+}
+.cirle-2{
+    width: 65px;
+    height: 65px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.cirle-3{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+}
+
+.content-inline{
+    display: flex;
+    flex-wrap: wrap;
+}

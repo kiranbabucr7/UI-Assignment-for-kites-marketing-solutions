@@ -11,34 +11,35 @@
     <!-- Font Awsome CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Fonts CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700&subset=latin&ver=4.4.23" rel="stylesheet">
     <!-- Custom Styles  -->
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/util.css">
   </head>
   <!-- body -->
     <body>
 
         <!-- Header section  -->
 
-        <div class="section1 bg-danger"> 
-            <div class="container-fluid bg-danger">
+        <div class="section1 bg-danger text-w"> 
+            <div class="container-fluid">
                 <div class="container">
                     <div class="row">
                         <div class="col-md">
                             <!-- contact info -->
-                            <div class="m-1 text-center text-md-left">
-                                <div class="fa fa-phone m-2"><span class="ml-2">456-456-456</span></div>
-                                <div class="fa fa-envelope-o m-2"><span class="ml-2">teset@email.com</span></div>
+                            <div class="m-2 text-center text-md-left">
+                                <div class="fa fa-phone"><span class="ml-2 opa-none">600 567 008</span></div>
+                                <div class="fa fa-envelope-o ml-4"><span class="ml-2 opa-none">info@presto.ae</span></div>
                             </div>
                         </div>
-                        <div class="col-md-auto">
+                        <div class="col-md-auto pr-0">
                             <!-- social links -->
-                            <div class="m-2 ml-1 text-center text-md-left">
-                            <a href="#" class="fa fa-instagram m-1 ml-3"></a>
-                            <a href="#" class="fa fa-linkedin m-1 ml-3"></a>
-                            <a href="#" class="fa fa-google m-1 ml-3"></a>
-                            <a href="#" class="fa fa-twitter m-1 ml-3"></a>
-                            <a href="#" class="fa fa-facebook m-1 ml-3"></a>
+                            <div class="m-2 text-center">
+                                <a href="#" class="fa fa-instagram m-1 text-w ml-3"></a>
+                                <a href="#" class="fa fa-linkedin m-1 text-w ml-3"></a>
+                                <a href="#" class="fa fa-google m-1 text-w ml-3"></a>
+                                <a href="#" class="fa fa-twitter m-1 text-w ml-3"></a>
+                                <a href="#" class="fa fa-facebook m-1 text-w ml-3"></a>
                             </div>
                         </div>
                     </div>
@@ -47,16 +48,18 @@
         </div>
 
         <!-- navbar -->
-        <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+        <nav class="navbar navbar-expand-md bg-light sticky-top one-edge-shadow">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" alt="Logo" style="width:180px;">
+                    <img class="logo" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-navicon" style="color:rgb(51, 51, 51); font-size:28px;"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse justify justify-content-end" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
                         </li>
@@ -141,82 +144,105 @@
         <section>
             <div class="container">
                 <div class="m-5 text-center">
-                    <h1 class="">Lorem Ipsum is simple</h1>
+                    <h1 class="">WELCOME TO PRESTO</h1>
                     <div class="line"></div>
-                    <p class="pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</p>
+                    <p class="pt-3 text-muted">Presto offers a wide variety of services to meet your business and professional needs. Whether you need assistance with government-related tasks or setting up a company in Dubai, we can help. Our friendly, experienced staff makes the process simple and easy! Plus, our Primo rewards program offers free services, free pickup and delivery, priority processing and other valuable benefits. Contact us for a free consultation!</p>
                 </div>
             </div>
         </section>
-
-        <div class="text-center m-4">
+        
+        <!-- SERVICES -->
+        <div class="text-center m-5 p-2">
             <h2>OUR SERVICES</h2>
         </div>
-
+        <!-- BUSINESS SERVICES -->
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 p-3 p-md-5 border-right text-center">
-                    <i class="fa fa-briefcase fa-2x" aria-hidden="true">BUSINESSMAN</i>   
-                </div>
-                <div class="col-md-4 p-3 p-md-5 text-center">
-                    <i class="fa fa-pencil-square-o fa-2x" aria-hidden="true">CORPORATE</i>  
-                </div>
-                <div class="col-md-4 p-3 p-md-5 text-center">
-                    <i class="fa fa-user fa-2x" aria-hidden="true">PRO</i>  
+            <div class="bdr-b-r">
+                <div class="row">
+                    <div class="col-md-4 p-3 p-md-5 bdr-r-r content-center">
+                        <div class="businessman text-center">
+                            <div class="cirle-1">
+                                <i class="fa fa-briefcase text-w pt-2 mt-1" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="text-center ml-3 pt-1">BUSINESSMAN</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3 p-md-5 bdr-r-r content-center">
+                        <div class="businessman text-center">
+                            <div class="cirle-1">
+                                <i class="fa fa-pencil-square-o text-w pt-2 mt-1" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="text-center ml-3 pt-1">CORPORATE</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3 p-md-5 bdr-r-r content-center">
+                        <div class="businessman text-center">
+                            <div class="cirle-1">
+                                <i class="fa fa-user text-w pt-2 mt-1" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="text-center ml-3 pt-1">PRO</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        
-        <div class="services">
-            <div class="text-center text-primary">
-                <h1 class="pt-5">BUSINESSMEN SERVICES</h1>
+        <!--BUSINESSMEN SERVICES CONTENT-->
+        <div class="services text-w">
+            <div class="text-center ">
+                <h2 class="pt-5">BUSINESSMEN SERVICES</h2>
             </div>
-            <div class="container-fluid">
+            <div class="container">
                 <div class="mt-5">
                     <div class="row">
-                        <div class="col-md-4 text-md-right text-primary">
-                            <h1>Serving companies of all sizes and industries.</h1>
+                        <div class="col-md-4 text-md-right p-4">
+                            <h2>Serving companies of all sizes and industries.</h2>
                         </div>
-                        <div class="col-md-4 text-center text-primary">
+                        <div class="col-md-4 p-4">
                             <p>Presto is a valuable resource for businesses that are looking to fully leverage the tremendous opportunities available in the UAE. We offers a wide range of services to help you set up, maintain and grow a business in Dubai or one of the tax-friendly free zones. Our experienced professionals can customize affordable solutions for large corporations, SMEs and entrepreneurs.</p>
                         </div>
-                        <div class="col-md-4">
-                            <div class="d-flex text-primary">
-                                <div class="">
-                                    <i class="fa fa-circle fa-5x pt-3 pl-1 text-danger" aria-hidden="true"></i>
+                        <div class="col-md-4 p-4">
+                            <div class="d-flex">
+                                <div>
+                                    <div class="cirle-2 content-center p-3 pl-3">
+                                        <i class="fa fa-puzzle-piece fa-2x" aria-hidden="true"></i>
+                                    </div>
                                 </div>
                                 <div>
                                     <div class="m-1 ml-3">
-                                        <h3>company Setup</h3>
-                                        <h5>Professional services that make it easy to establish a business presence in Dubai.</h5>
+                                        <h4>company Setup</h4>
+                                        <p>Professional services that make it easy to establish a business presence in Dubai.</p>
                                     </div>
                                     <div>
 
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex text-primary">
-                                <div class="">
-                                    <i class="fa fa-circle fa-5x pt-3 pl-1 text-danger" aria-hidden="true"></i>
+                            <div class="d-flex">
+                                <div>
+                                    <div class="cirle-2 content-center p-3 pl-3">
+                                        <i class="fa fa-file fa-2x" aria-hidden="true"></i>
+                                    </div>
                                 </div>
                                 <div>
                                     <div class="m-1 ml-3">
-                                        <h3>company Setup</h3>
-                                        <h5>Professional services that make it easy to establish a business presence in Dubai.</h5>
+                                        <h4>Document Clearance</h4>
+                                        <p>Saving you time, effort and money with all types of government services.</p>
                                     </div>
                                     <div>
 
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex text-primary">
-                                <div class="">
-                                    <i class="fa fa-circle fa-5x pt-3 pl-1 text-danger" aria-hidden="true"></i>
+                            <div class="d-flex">
+                                <div>
+                                    <div class="cirle-2 content-center p-3 pl-3">
+                                        <i class="fa fa-handshake-o fa-2x" aria-hidden="true"></i>
+                                    </div>
                                 </div>
                                 <div>
                                     <div class="m-1 ml-3">
-                                        <h3>company Setup</h3>
-                                        <h5>Professional services that make it easy to establish a business presence in Dubai.</h5>
+                                        <h4>Official Agreements</h4>
+                                        <p>Expert assistance preparing official agreements and other important contracts.</p>
                                     </div>
                                     <div>
 
@@ -230,165 +256,97 @@
         </div>
 
         <!-- section footer -->
-        <section class="">
-            <div class="container mt-5" style="height: 600px;">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="ml-2">
-                            <h4>News/Blogs</h4>
-                        </div>
-                        <div class="" style="max-height: 500px; overflow: scroll;">
-                            <div class="card m-2">
-                                <div class="card-body">
-                                    <div class="d-flex">
-                                        
-                                            <div class="m-0 p-0">
-                                                <img class="mt-2" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" width="40" height="15" alt="presto">
-                                            </div>
-                                            <div class="m-0 p-0">
-                                                <P class="text-info ml-1 ">presto</P>
-                                            </div>
-                                            <div class="m-0 p-0">
-                                                <a class="twitter-follow-button"href="https://twitter.com/TwitterDev">@TwitterDev</a>
-                                            </div>
-                                        
-                                        <!-- <img class="mt-2" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" width="40" height="15" alt="presto">
-                                        <P class="text-info ml-1">presto</P>
-                                        <a class="twitter-follow-button"href="https://twitter.com/TwitterDev">@TwitterDev</a> -->
+        <section>
+            <div class="container">
+                <div class="mt-5 pre-footer">
+                    <div class="row">
+                        <div class="col-md-3 mb-5">
+                            <h3>News/Blogs</h3>
+                            <div class="prefooter-r-c1 overflow-auto mt-5">
+                                <div class="mt-3">
+                                    <div>
+                                        <img class="logo1" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" alt="Logo">
+                                        <a class="fa fa-twitter" href="http://twitter.com/PrestoUAE">Pestro</a>
                                     </div>
-                                    <a class="small" href="#">Lorem Ipsum is simply dummy text of the printing</a>
+                                    <p class="pt-3">PrestoFollowOne-stop shop for all government related services.PrestoFollowOne-stop shop for all government related services.</p>
+                                </div>
+                                <div class="mt-3">
+                                    <div>
+                                        <img class="logo1" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" alt="Logo">
+                                        <a class="fa fa-twitter" href="http://twitter.com/PrestoUAE">Pestro</a>
+                                    </div>
+                                    <p class="pt-3">PrestoFollowOne-stop shop for all government related services.PrestoFollowOne-stop shop for all government related services.</p>
+                                </div>
+                                <div class="mt-3">
+                                    <div>
+                                        <img class="logo1" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" alt="Logo">
+                                        <a class="fa fa-twitter" href="http://twitter.com/PrestoUAE">Pestro</a>
+                                    </div>
+                                    <p class="pt-3">PrestoFollowOne-stop shop for all government related services.PrestoFollowOne-stop shop for all government related services.</p>
                                 </div>
                             </div>
-                            <div class="card m-2">
-                                <div class="card-body">
-                                    <div class="d-flex">
-                                        <img class="mt-2" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" width="40" height="15" alt="presto">
-                                        <P class="text-info ml-1">presto</P>
-                                        <p class="small mt-1 ml-1">7 may</p>
-                                    </div>
-                                    <P>We're back in Business !!! Our Ramadan Timings SUN - SAT ( 9 AM TO 3 PM )</P>
-                                    <div class="dflex small">
-                                        <i class="fa fa-arrow-left m-2" aria-hidden="true"></i>
-                                        <i class="fa fa-refresh m-2" ></i>
-                                        <i class="fa fa-heart m-2"></i>
-                                        <a class="twitter-follow-button m-2"href="https://twitter.com/TwitterDev">Twitter</a>
-                                    </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <h3>Services</h3>
+                            <div class="mt-5">
+                                <p class="font-weight-bold">Service By Costumers</p>
+                                <div class="mt-5">
+                                    <ul class="text-primary list-unstyled">
+                                        <li><a href="#">Businessmen</a></li>
+                                        <li><a href="#">Corporate</a></li>
+                                        <li><a href="#">PRO</a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="card m-2">
-                                <div class="card-body">
-                                    <div class="d-flex">
-                                        <img class="mt-2" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" width="40" height="15" alt="presto">
-                                        <P class="text-info ml-1">presto</P>
-                                        <p class="small mt-1 ml-1">7 may</p>
-                                    </div>
-                                    <P>We're back in Business !!! Our Ramadan Timings SUN - SAT ( 9 AM TO 3 PM )</P>
-                                    <div class="dflex small">
-                                        <i class="fa fa-arrow-left m-1" aria-hidden="true"></i>
-                                        <i class="fa fa-refresh m-1" ></i>
-                                        <i class="fa fa-heart m-1"></i>
-                                        <a class="twitter-follow-button m-1"href="https://twitter.com/TwitterDev">Twitter</a>
-                                    </div>
-                                </div>  
-                            </div>
-                            <div class="card m-2">
-                                <div class="card-body">
-                                    <div class="d-flex">
-                                        <img class="mt-2" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" width="40" height="15" alt="presto">
-                                        <P class="text-info ml-1">presto</P>
-                                        <p class="small mt-1 ml-1">7 may</p>
-                                    </div>
-                                    <P>We're back in Business !!! Our Ramadan Timings SUN - SAT ( 9 AM TO 3 PM )</P>
-                                    <div class="dflex small">
-                                        <i class="fa fa-arrow-left m-1" aria-hidden="true"></i>
-                                        <i class="fa fa-refresh m-1" ></i>
-                                        <i class="fa fa-heart m-1"></i>
-                                        <a class="twitter-follow-button m-1"href="https://twitter.com/TwitterDev">Twitter</a>
-                                    </div>
-                                </div>  
-                            </div>
-                            <div class="card m-2">
-                                <div class="card-body">
-                                    <div class="d-flex">
-                                        <img class="mt-2" src="http://presto.ae/wp-content/uploads/Presto-B.Man-Normal-01.png" width="40" height="15" alt="presto">
-                                        <P class="text-info ml-1">presto</P>
-                                        <p class="small mt-1 ml-1">7 may</p>
-                                    </div>
-                                    <P>We're back in Business !!! Our Ramadan Timings SUN - SAT ( 9 AM TO 3 PM )</P>
-                                    <div class="dflex small">
-                                        <i class="fa fa-arrow-left m-1" aria-hidden="true"></i>
-                                        <i class="fa fa-refresh m-1" ></i>
-                                        <i class="fa fa-heart m-1"></i>
-                                        <a class="twitter-follow-button m-1"href="https://twitter.com/TwitterDev">Twitter</a>
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="">
-                            <h4>Services</h4>
-                        </div>
-                        <div class="">
-                            <p class="font-weight-bold">Services By Costumers</p>
-                        </div>
-                        <div>
-                            <ul class="list-unstyled mb-3">
-                                <li>Businessman</li>
-                                <li>Corporate</li>
-                                <li>Pro</li>
-                            </ul>
-                        </div>
-                        <div class="">
-                            <h3>Site Info</h3>
-                        </div>
-                        <div>
-                            <ul class="list-unstyled mb-3">
-                                <li>Home</li>
-                                <li>About Us</li>
-                                <li>Services</li>
-                                <li>Careeres</li>
-                                <li>Location</li>
-                                <li>Contact Us</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="">
-                            <h4 class="">Contact</h4>
-                        </div>
-                        <div class="">
-                            <form>
-                                <div class="form-group">
-                                    <label>Name</label>
-                                    <input class="border form-control" type="text">
+                            <div class="mt-5 text-primary">
+                                <h3 class="">Site Info</h3>
+                                <div class="mt-5">
+                                    <ul class="list-unstyled mb-3">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Careeres</a></li>
+                                        <li><a href="#">Location</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
                                 </div>
-                                <div class="form-group">
-                                    <label>Email</label>
-                                    <input class="border form-control" type="Email">
-                                </div> 
-                                <div class="form-group">
-                                    <label>Subject</label>
-                                    <textarea class="border form-control"></textarea>
-                                </div>
-                                <div class="text-left">
-                                    <input class="border bg-primary " type="Submit">
-                                </div> 
-                            </form>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="">
-                            <div class="map-container" id="map-container">
+                        <div class="col-md-3 mb-5">
+                            <h3>Contact</h3>
+                            <div class="mt-5">
+                                <form action="">
+                                    <div class="form-group">
+                                      <label for="name">Name:</label>
+                                      <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="email">Email:</label>
+                                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="sub">Subject:</label>
+                                      <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="sub">Subject:</label>
+                                      <textarea class="form-control" id="subject" placeholder="Subject" name="subject"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-5">
+                            <div class="location">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63015.45594415755!2d76.69472809727628!3d9.202546810491487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0611569de9915b%3A0x6c2ddad645327c!2sPandalam%20Thekkekara%2C%20Kerala!5e0!3m2!1sen!2sin!4v1594714729446!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             </div>
                             <div class="mt-2">
-                                <h4>Address/Location</h4>
+                                <h3 class="text-primary">Address/Location</h3>
                                 <div class="mt-3">
                                     <p>P.O Box 48294, Al Twar Center,</p>
                                     <p>Al Qusais,Dubai,UAE</p>
-                                    <p>Phone: 600 567 008</p>
-                                    <p>Email: info@presto.ae</p>
+                                    <p>Phone:<span class="text-primary">600 567 008</span></p>
+                                    <p>Email:<span class="text-primary">info@presto.ae</span></p>
                                 </div>
                             </div>
                         </div>
@@ -399,13 +357,25 @@
         <!-- section footer -->
         <div class="">
             <div class="text-center bg-danger">
-                <P>@ 2016 Presto. All Rights Reserved.</P>
-                <div class="header-social-icons">
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-instagram"></a>
+                <div class="text-w">
+                    <P class="pt-4">@ 2016 Presto. All Rights Reserved.</P>
+                </div>
+                <div class="header-social-icons pb-4">
+                    <div class="cirle-3 m-1">
+                        <i class="fa fa-facebook text-muted pt-2 mt-1" aria-hidden="true"></i>
+                    </div>
+                    <div class="cirle-3 m-1">
+                        <i class="fa fa-twitter text-muted pt-2 mt-1" aria-hidden="true"></i>
+                    </div>
+                    <div class="cirle-3 m-1">
+                        <i class="fa fa-google text-muted pt-2 mt-1" aria-hidden="true"></i>
+                    </div>
+                    <div class="cirle-3 m-1">
+                        <i class="fa fa-linkedin text-muted pt-2 mt-1" aria-hidden="true"></i>
+                    </div>
+                    <div class="cirle-3 m-1">
+                        <i class="fa fa-instagram text-muted pt-2 mt-1" aria-hidden="true"></i>
+                    </div>
                 </div>
             </div>
         </div>
